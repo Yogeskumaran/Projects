@@ -21,6 +21,8 @@ Steps:
   11. After building seperate models for each chunks, there was another memory issue arose.
   12. So I decided to link three to four chunks and build a model for that linked chunks.
   13. Atlast started to merge all the models I created but again the memory issue raised but this time i came to solution of transfer learning method.
-  14. 
-  15. After built the model architecture, my machine was not enough to process the whole data. So I cannot built a model completely.
-  16. So, First I have identified that the model
+  14. Transfer learning is a machine learning technique that reuses a trained model for a new task that is related to the original one12345. Transfer learning           allows data scientists to benefit from the knowledge gained from a previous task and improve the performance or speed of learning for the new task
+  15. Finally fine tuned the model using different parameters and deployed the model and made it into a website using bootstrap.
+
+Evaluation:
+
