@@ -26,3 +26,8 @@ Steps:
 
 Evaluation:
 
+  1. The Model gives the accuracy over 90+ that's not bad but at the same we have to verify how good it is does it overfit or not. So here I used, k-fold valuation method to verify that the model is overfitting or not.
+  2. K-fold valuation is nothing but a process a creating a valuation data while train_test_split, the valuation data are divided into certain batches and the evaluation phase will take after the testing phase.
+  3. The Model has to score higher than the first batch or similar in all batches, that's the case we can say that model is not over-fit.
+  4. In my case, the model scores similar score of 90+ across all the batch of data.
+  5. Hence the model is not overfitted.
